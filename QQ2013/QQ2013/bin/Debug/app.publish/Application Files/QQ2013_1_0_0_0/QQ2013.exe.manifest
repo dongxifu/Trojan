@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QQ2013.exe" version="1.0.0.0" publicKeyToken="6ac089ec046b8b49" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="腾讯qq图标下载15.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QQ2013" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="QQ2013.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QQ2013.exe" size="452096">
+      <assemblyIdentity name="QQ2013" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DXXXEDJ8Qa0Jz8UpuShxyBIzrw4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkinForm.dll" size="607232">
+      <assemblyIdentity name="SkinForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1VAGGuA6ZeRpxmzQyEv5pAdiUKI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="QQ2013.exe.config" size="117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a3Forh+i+nzyaONrpGeK7Sudu10=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="腾讯qq图标下载15.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hxMNk1eaCioMyzHUyV724CUhGig=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USER-20141206YU\Administrator" issuerKeyHash="1e7c5040fa303ddb1bc993663b29c93984c24b14" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8X4elik29bueIa7FZlwZV2cGx2s=</DigestValue></Reference></SignedInfo><SignatureValue>Ej/0XMInP5k4XpK4KdVD0Uv/z+yMNJFwV5Xy50JIM6ObISkndRNFViNNPa3YosDojptq6RenDWV3NoizzmM6bCQto74Gssr2FE/tIQiKIBsAv3DD9V+wlDRsgMMnsS4RbhWtnE+HsbjBJzFC5TnRE0HqRlOO30NBrEgvR3VHX7s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zrgOLRnyAnfm7QFA2LRYzhmAC7EG6H8WxQjj4qwD2zv2kxjnQRBipOmFRdPUIrhNOyi+wTlzWsJ0TPHBL0tGuX5J7n6WLaeO3c7vJaAcYK3MXBKXUCRxtKwJsLPYpLb6Acfd1oaUm99r9OCcy9d5zq73zzIjQLSTUYDLJ0ufc7s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6bc7066757195c66c5ae219ebbf53629961e7ef1" Description="" Url=""><as:assemblyIdentity name="QQ2013.exe" version="1.0.0.0" publicKeyToken="6ac089ec046b8b49" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USER-20141206YU\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GMbUmaWQJyqiaZj7p9vnk3FBwKM=</DigestValue></Reference></SignedInfo><SignatureValue>oe+eiGynUxpfNJ9dRe/NozJMkgzPo3Qzcu8vMF1dnbx2Jngy75WyfvfPFssgIEEBmoVpHsiyri5a+vsP18pKAyG0AT1s/8vDoeycdcmVYDbS7Ym69ZNsD5PdOLhE/K7iZrCHQj2NiJvhBSrAng1bHAjAMCjhdavvUvMN5Ncp8fA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zrgOLRnyAnfm7QFA2LRYzhmAC7EG6H8WxQjj4qwD2zv2kxjnQRBipOmFRdPUIrhNOyi+wTlzWsJ0TPHBL0tGuX5J7n6WLaeO3c7vJaAcYK3MXBKXUCRxtKwJsLPYpLb6Acfd1oaUm99r9OCcy9d5zq73zzIjQLSTUYDLJ0ufc7s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQdrrRoojCqKpI8j+Kc0GrZzANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAVQBTAEUAUgAtADIAMAAxADQAMQAyADAANgBZAFUAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE1MDMxNDEzNTU1NFoXDTE2MDMxMzE5NTU1NFowRTFDMEEGA1UEAx46AFUAUwBFAFIALQAyADAAMQA0ADEAMgAwADYAWQBVAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzrgOLRnyAnfm7QFA2LRYzhmAC7EG6H8WxQjj4qwD2zv2kxjnQRBipOmFRdPUIrhNOyi+wTlzWsJ0TPHBL0tGuX5J7n6WLaeO3c7vJaAcYK3MXBKXUCRxtKwJsLPYpLb6Acfd1oaUm99r9OCcy9d5zq73zzIjQLSTUYDLJ0ufc7sCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAElHYP5/3DdCQxEfsU4T38+9FxsyrpuSlDFdPc/YFE1z78mu41I2LxKsm978wF1yC78YpeIsqb5PhWIFoJj+lGtVoA/mgglD/hEgPd5fJrXIk2WLJ60wLa0gb3kbLRWjNJnk8v7Iy8GZ6WAJE2bGWc/1Y0C9CNL6CHoQO/bcQcBQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

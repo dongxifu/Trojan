@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD249B75-EC03-4994-A87F-0A951200C5EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QQ2013</RootNamespace>
+    <AssemblyName>QQ2013</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>腾讯qq图标下载15.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SkinForm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SkinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afternoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_head_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_flirtationface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_inputassist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_richface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_screen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_screen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_sendpic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio_quickbar_twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIO_SetBtn_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIO_SetBtn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIO_SetBtn_highlight_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIO_SetBtn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all_inside_bkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\allbtn_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\allbtn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\away %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackPalace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_max_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_max_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_max_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_mini_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_mini_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_mini_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_restore_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_restore_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_restore_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_set_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_set_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_set_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Skin_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Skin_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Skin_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_hightlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_back_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_back_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_left_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_left_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_right_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corner_right_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duozhanghao6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frameBorderEffect_mouseDownDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frameBorderEffect_normalDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgRjp.BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imoffline %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imonline %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invisible %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_btn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_btn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\morning.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Norml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureBox1.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qme %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spin_normal_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolbarBtnDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolbarBtnNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="腾讯qq图标下载15.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

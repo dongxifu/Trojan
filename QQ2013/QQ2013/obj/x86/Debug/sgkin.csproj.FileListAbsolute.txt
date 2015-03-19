@@ -1,0 +1,8 @@
+E:\各种东西\QQ2013\QQ2013\QQ2013\bin\Debug\QQ2013.exe.config
+E:\各种东西\QQ2013\QQ2013\QQ2013\obj\x86\Debug\QQ2013.exe
+E:\各种东西\QQ2013\QQ2013\QQ2013\obj\x86\Debug\QQ2013.pdb
+E:\各种东西\QQ2013\QQ2013\QQ2013\bin\Debug\QQ2013.exe
+E:\各种东西\QQ2013\QQ2013\QQ2013\bin\Debug\QQ2013.pdb
+E:\各种东西\QQ2013\QQ2013\QQ2013\obj\x86\Debug\QQ2013.FrmLogin.resources
+E:\各种东西\QQ2013\QQ2013\QQ2013\obj\x86\Debug\QQ2013.Properties.Resources.resources
+E:\各种东西\QQ2013\QQ2013\QQ2013\obj\x86\Debug\sgkin.csproj.GenerateResource.Cache
